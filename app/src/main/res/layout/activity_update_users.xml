@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateUsersActivity">
+
+    <!--Edit text to enter User name-->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/idEdtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter User Name" />
+
+    <!--edit text to enter User email-->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/idEdtUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter User Email" />
+
+    <!--edit text to display user contact-->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/idEdtUserContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:hint="Enter User Contact" />
+
+    <!--edit text for User Password-->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/idEdtUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter User Password" />
+
+    <!--button for updating our user details-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idBtnUpdateUsers"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtUserPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/mybutton"
+        android:text="Update User Details"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <!--button for deleting our user details-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idBtnDeleteUsers"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnUpdateUsers"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/mybutton"
+        android:text="Delete User DETAILS"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</LinearLayout>

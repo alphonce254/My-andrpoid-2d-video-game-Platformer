@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Platformer</string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_contact">Enter Valid Contact</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="error_message_password2">Password too weak.\n
+        A digit must occur at least once.\n
+        A lower case alphabet must occur at least once.\n
+        An upper case alphabet must occur at least once.\n
+        A special character must occur at least once.\n
+        Spaces are not allowed.\n
+        Must have at least 8 characters and at most 20 characters.</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="success_message1">New Entry Inserted</string>
+    <string name="error_entry_exists">New Entry Not Inserted it exists</string>
+    <string name="success_messageupdate">Entry Updated"</string>
+    <string name="error_entry_existsupdate">Entry Not updated it exists</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_hello">Hello, Admin</string>
+    <string name="text_title">2D PLATFORMER</string>
+    <string name="administrator">ADMINISTRATOR</string>
+    <string name="admin">ADMIN</string>
+
+</resources>

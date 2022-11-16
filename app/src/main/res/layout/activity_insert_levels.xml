@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".crudActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please enter the details below"
+        android:textSize="24dp" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttitle"
+        android:hint="PlayerName"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/player"
+        android:hint="LevelName"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/difficulty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:hint="LevelDifficulty"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/highscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/difficulty"
+        android:hint="LevelHighscore"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/highscore"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/mybutton"
+        android:text="Insert New Data"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/mybutton"
+        android:textSize="24dp"
+        android:text="View Data"
+        android:textColor="@color/white"
+        android:layout_below="@id/btnInsert"/>
+</RelativeLayout>
